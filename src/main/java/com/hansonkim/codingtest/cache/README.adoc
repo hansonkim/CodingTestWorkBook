@@ -1,27 +1,27 @@
 # LRU CACHE
 
-// Cache Hit Delay: 1
-// Cache Miss Delay: 5
+Cache Hit Delay: 1
+Cache Miss Delay: 5
 
-// Cache Size: 3
-// Data Strings: ["donut", "juice", "apple", "banana"]
-// Output Value: 20
+Cache Size: 3
+Data Strings: ["donut", "juice", "apple", "banana"]
+Output Value: 20
 
-// Cache Size: 3
-// Data Strings: ["donut", "juice", "apple", "donut"]
-// Output Value: 16
+Cache Size: 3
+Data Strings: ["donut", "juice", "apple", "donut"]
+Output Value: 16
 
-// Cache Size: 0
-// Data Strings: ["donut", "juice", "apple", "donut"]
-// Output Value: 20
+Cache Size: 0
+Data Strings: ["donut", "juice", "apple", "donut"]
+Output Value: 20
 
-// Cache Size: 5
-// Data Strings: ["donut", "juice", "apple", "donut", "apple", "coffee"]
-// Output Value: 22
+Cache Size: 5
+Data Strings: ["donut", "juice", "apple", "donut", "apple", "coffee"]
+Output Value: 22
 
-// Cache Size: 2
-// Data Strings: ["donut", "juice", "juice", "apple", "donut"]
-// Output Value: 21
+Cache Size: 2
+Data Strings: ["donut", "juice", "juice", "apple", "donut"]
+Output Value: 21
 
 int GetDelaySum(int, List<String>)
 {
